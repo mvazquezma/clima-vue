@@ -16,6 +16,7 @@ const {obtenerClima, clima, mostrarClima} = useClima()
     />
     <Clima 
       v-if="mostrarClima"
+      :clima="clima"
     />
   </div>
   
